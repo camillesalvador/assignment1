@@ -13,9 +13,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "start": "next start"
   },
   "homepage": "https://camillesalvador.github.io/assignment1"
 }
