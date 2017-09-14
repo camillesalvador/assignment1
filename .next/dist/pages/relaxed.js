@@ -24,24 +24,24 @@ var style = {
     marginTop: '50px',
     padding: '50px 60px',
     maxWidth: '800px',
-    backgroundColor: 'rgba(220, 208, 192, 0.35)',
-    color: '#c0b283',
+    backgroundColor: 'rgba(251, 161, 0, 0.18)',
+    color: 'rgba(55, 55, 55, 0.7)',
     boxShadow: '1px 2px 10px lightgrey'
   },
   title: {
-    fontFamily: '"Open Sans Condensed", sans-serif',
+    fontFamily: '"Open Sans", sans-serif',
     textTransform: 'uppercase',
     fontSize: '48px'
   },
   sub: {
-    fontFamily: '"Open Sans", sans-serif',
+    fontFamily: '"Prata", serif',
     fontWeight: 'bold',
     fontSize: '20px',
     textTransform: 'uppercase',
     marginBottom: '20px'
   },
   para: {
-    fontFamily: '"Open Sans", sans-serif',
+    fontFamily: '"Prata", serif',
     fontSize: '18px',
     lineHeight: '1.5'
   }
@@ -50,7 +50,7 @@ var style = {
 exports.default = function () {
   return _react2.default.createElement(_PageLayout2.default, null, _react2.default.createElement('div', { style: style.container, 'data-jsx': 320253851
   }, _react2.default.createElement('h1', { style: style.title, 'data-jsx': 320253851
-  }, 'Sophisticated Page'), _react2.default.createElement('h2', { style: style.sub, 'data-jsx': 320253851
+  }, 'Relaxed Page'), _react2.default.createElement('h2', { style: style.sub, 'data-jsx': 320253851
   }, 'Color Strategy: Material Design'), _react2.default.createElement('p', { style: style.para, 'data-jsx': 320253851
   }, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia d eserunt mollit anim id est laborum.')), _react2.default.createElement(_style2.default, {
     styleId: 320253851,
