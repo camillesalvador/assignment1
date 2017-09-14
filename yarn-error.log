@@ -1,0 +1,38 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.0.1/libexec/bin/yarn.js add react react-dom next
+
+PATH: 
+  /Users/camille/.rvm/gems/ruby-2.4.0/bin:/Users/camille/.rvm/gems/ruby-2.4.0@global/bin:/Users/camille/.rvm/rubies/ruby-2.4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Users/camille/.rvm/bin
+
+Yarn version: 
+  1.0.1
+
+Node version: 
+  6.11.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "assignment1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: socket hang up
+      at TLSSocket.onHangUp (_tls_wrap.js:1124:19)
+      at TLSSocket.g (events.js:292:16)
+      at emitNone (events.js:91:20)
+      at TLSSocket.emit (events.js:185:7)
+      at endReadableNT (_stream_readable.js:974:12)
+      at _combinedTickCallback (internal/process/next_tick.js:80:11)
+      at process._tickCallback (internal/process/next_tick.js:104:9)
