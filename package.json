@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
-  },
-  "homepage": "https://camillesalvador.github.io/assignment1"
+    "start": "next start",
+    "export": "next export"
+  }
 }
