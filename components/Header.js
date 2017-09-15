@@ -15,19 +15,19 @@ const style = {
 
 const Header = () => (
   <nav style={style.navbox}>
-    <Link href={{pathname: '/'}} prefetch>
+    <Link href="/" prefetch>
       <a style={style.navlinks}>Sophisticated</a>
     </Link>
-    <Link href={{pathname: '/energetic'}} prefetch>
+    <Link href="/energetic" prefetch>
       <a style={style.navlinks}>Energetic</a>
     </Link>
-    <Link href={{pathname: '/fun'}} prefetch>
+    <Link href="/fun" prefetch>
       <a style={style.navlinks}>Fun</a>
     </Link>
-    <Link href={{pathname: '/corporate'}} prefetch>
+    <Link href="/corporate" prefetch>
       <a style={style.navlinks}>Corporate</a>
     </Link>
-    <Link href={{pathname: '/relaxed'}} prefetch>
+    <Link href="/relaxed" prefetch>
       <a style={style.navlinks}>Relaxed</a>
     </Link>
   </nav>
