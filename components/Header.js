@@ -15,19 +15,19 @@ const style = {
 
 const Header = () => (
   <nav style={style.navbox}>
-    <Link href="/">
+    <Link href="./">
       <a style={style.navlinks}>Sophisticated</a>
     </Link>
-    <Link href="/energetic">
+    <Link href="./energetic">
       <a style={style.navlinks}>Energetic</a>
     </Link>
-    <Link href="/fun">
+    <Link href="./fun">
       <a style={style.navlinks}>Fun</a>
     </Link>
-    <Link href="/corporate">
+    <Link href="./corporate">
       <a style={style.navlinks}>Corporate</a>
     </Link>
-    <Link href="/relaxed">
+    <Link href="./relaxed">
       <a style={style.navlinks}>Relaxed</a>
     </Link>
   </nav>
