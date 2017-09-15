@@ -24,10 +24,10 @@ const Header = () => (
     <Link href={{pathname: '/fun'}} prefetch>
       <a style={style.navlinks}>Fun</a>
     </Link>
-    <Link href="/corporate" prefetch>
+    <Link href={{pathname: '/corporate'}} prefetch>
       <a style={style.navlinks}>Corporate</a>
     </Link>
-    <Link href="/relaxed" prefetch>
+    <Link href={{pathname: '/relaxed'}} prefetch>
       <a style={style.navlinks}>Relaxed</a>
     </Link>
   </nav>
