@@ -6,6 +6,6 @@ module.exports = {
       '/fun': { page: '/fun'},
       '/energetic': { page: '/energetic' },
       '/relaxed': { page: '/relaxed' }
-    }
+    };
   }
-}
+};
