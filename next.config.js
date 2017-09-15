@@ -3,9 +3,9 @@ module.exports = {
     return {
       '/': { page: '/' },
       '/corporate': { page: '/' },
-      '/fun': { page: '/fun'},
-      '/energetic': { page: '/energetic' },
-      '/relaxed': { page: '/relaxed' }
+      '/fun': { page: '/'},
+      '/energetic': { page: '/' },
+      '/relaxed': { page: '/' }
     }
   }
 }
